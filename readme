@@ -1,0 +1,29 @@
+Name: Colin Peterman
+
+I certify that I completed all of the work myself with no aid from anyone aside from the instructor or the undergraduate graders.
+
+1. I created a file that was 16 binary numbers with two seven letter words. I wanted to do 16 binary numbers to test to make sure that the encoding ran continuously while there were still more than 8 binary numbers. I used two seven letter words because in the output file I wanted to make sure that the majority of the words were right while there were parts that were encoded. The 8th and 16th binary numbers are different to make sure different characters in the seven letter words are working correctly as well.
+
+2. I used the binary numbers for the word nursinga and my expected output was nõòsing. Like before I wanted to include a 7 letter word with a random character at the end so that was easy to tell if the code correctly worked and using the encoding binary number made sure it did encryptions back to back. 
+
+3. A different way that this could be modified in case the strategy was foiled would be to change a different digit in the binary numbers. This would make it a lot harder since to encode our current one you have to put zeros at the beginning but if it was a different digit then it could be a one or a zero and then you would output the last digit as the what the character were changed making it a lot harder to decrypt.
+
+4. They could swap schemes depending on the length of the last binary number or where the ones are in the eight character. It would have a preprogrammed desire on which scheme to use depending on the location of the ones in the eighth binary number making the decryption much more difficult.
+
+
+1. Something bad that could happen is that if the character you wanted to print out started with a one, then when decrypting it you change the characters to a zero at the beginning then it would not be the same as it started out when decrypting it. This is because we assume they are going to be letters that start with a zero.
+
+2. You could print out an eight character that is made up of the ones and zeros that have been changed in the encryption so that when decrypting it you can get the correct result.
+
+
+
+1. At one point I did manage to mangle my copy of my decryption code because it was hard to incorporate these measures into my already working code. Some of these things I had not used while programming and to change my working code to use these was hard and mangled it at one point.
+
+2. I think since I wrote the whole thing and then went back and mangled it, it is not that hard to read. Although putting multiple lines of code on one line and no comments definitely does not make it easy. If I were to look back at it in a couple months I would definitely have a hard time since there are no comments or some lines just don’t make sense and I would not remember it.
+
+3. I think taking good code and making it bad is definitely easier since you can change things little by little to make sure that the code is still working correctly while still maintaining functionality. If I were to take bad code and make it good it would be hard to figure out which parts are bad and which parts make it work.
+
+4. An unwritten assumption is that the input are actual characters and not random ones with a one in front of it. If the one was in front of the code then the decryption would take all the ones and change them to zeros resulting in the wrong decryption.
+
+5. The decryption process would fail because it would replace the ones that would be correct with zeros changing the actual character from what they are supposed to be. 
+
